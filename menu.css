@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(image/background.jpg);   
+    background-size: cover;
+    
+}
+.menu{
+    
+    padding: 1rem 1rem;
+    margin-bottom: 5px;
+}
+
+.menu-heading{
+    font-size: 12rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0,0,0,.9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-rows:repeat(2, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+
+.heading-secondary{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.menu-img1{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/bu.jpg");
+}
+.menu-img2{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/a.jpg");
+}
+.menu-img3{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/samose.jpg");
+}
+.menu-img4{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/e.jpg");
+}
+.menu-img5{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/b.jpg");
+}
+.menu-img6{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/i.jpg");
+}.menu-img7{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/g.jpg");
+}
+.menu-img8{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("image/h.jpg");
+}
+
+.menu-container{
+    width: 100%;
+    height: 20rem;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0,0,0,.2);
+    transition: all .4s ease;
+}
+
+.menu-container:hover{
+    box-shadow: 0 0 5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+}
+
+.menu-p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-title{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.price{
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    text-align: center;
+    color: #da6b1d;
+    text-shadow: 0 .4rem 2rem rgba(0,0,0,.4);
+}
+.ORDER{
+    text-align: center;
+    font-size: 1rem;
+    justify-self: center;
+    margin: auto;
+    display: flex;
+    background-color: rgb(79, 236, 140);
+    color: rgb(255, 253, 254);
+    cursor: pointer;
+     outline-style: solid;
+    outline-color: red;
+    border-radius: 1px;
+}
